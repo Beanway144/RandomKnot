@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Knot Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <button onclick="makePath(50, 50, 400, 1)">New Path</button>
+        <button onclick="clearCanvas()">Clear Screen</button>
+        <button onclick="makeKnot(17)">Make Knot</button>
+        If the knot is taking too long to finish, reload the page and try again!
+   </div>
+
+
+    <canvas id="canvas" height="700" width="1000">
+    </canvas>
+    <script src="knotgenerator.js"></script>
+
+</body>
+
+</html>
